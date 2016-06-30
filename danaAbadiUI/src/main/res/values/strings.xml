@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SAHABAT MAKARA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">1477218079240985</string>
+    <string name="app_id_new">925773204164390</string>
+
+
+    <string name="label_btn_donate">DONATE NOW</string>
+    <string name="label_btn_more_detail">MORE DETAILS</string>
+
+    <string name="lorem_ipsum_dolor">Diadakan acara dengan judul “Tokoh dan Selebriti Alumni FISIP UI Bicara: “Mahasiswa dan Pergerakan Politik, dari Dekade ke Dekade”. Pembicara dalam acara tersebut adalah Dr. Cosmas Batubara dan Drs. Eep Saefulloh Fatah, MA, keduanya merupakan alumni program studi Ilmu Politik FISIP UI, serta dimoderatori oleh Isyana Bagoes Oka, S. Sos, yang merupakan Alumni Hubungan Internasional FISIP UI. Acara tersebut berlangsung di Auditorium Juwono Sudarsono, Gedung F lantai 2 Kampus FISIP UI Depok.</string>
+
+    <string name="hubungi_alamat">DIREKTORAT PENGEMBANGAN KARIR DAN HUBUNGAN ALUMNI UI
+GD. PELAYANAN MAHASISWA TERPADU, PUSAT ADMINISTRASI UNIVERSITAS INDONESIA, LANTAI 2 KAMPUS UI DEPOK 16424
+</string>
+
+    <string name="hubungi_phone">+62 21 7867222
+78841818
+EXT. 100040</string>
+    <string name="hubungi_email">DANA.ABADIUI@UI.AC.ID</string>
+    <string name="label_transfer">Masa berlaku transaksi adalah selama 24 jam. \n\nBila Selama 24 jam kami tidak menerima proses pembayaran anda maka transaksi ini kami anggap gagal  </string>
+
+    <string-array name="payment_via">
+        <item>Transfer</item>
+        <item>Kartu Kredit</item>
+
+    </string-array>
+
+    <string-array name="payment_via_all">
+        <item>Transfer</item>
+        <item>Kartu Kredit</item>
+        <item>Jemput Dana</item>
+    </string-array>
+
+    <string-array name="spinner_bulan">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="spinner_tahun">
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+
+    </string-array>
+
+    <string-array name="spinner_kelamin">
+    <item>Laki-Laki</item>
+    <item>Perempuan</item>
+
+    </string-array>
+    <string-array name="spinner_fakultas">
+        <item>Universitas Indonesia (UI) </item>
+        <item>Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)</item>
+        <item>Fakultas Teknik (FT)</item>
+        <item>Fakultas Kedokteran (FK)</item>
+        <item>Fakultas Kedokteran Gigi (FKG)</item>
+        <item>Fakultas Farmasi</item>
+        <item>Fakultas Kesehatan Masyarakat (FKM)</item>
+        <item>Fakultas Ilmu Komputer (Fasilkom)</item>
+        <item>Fakultas Ilmu Keperawatan (FIK)</item>
+        <item>Fakultas Psikologi</item>
+        <item>Fakultas Hukum (FH)</item>
+        <item>Fakultas Ekonomi (FE)</item>
+        <item>Fakultas Ilmu Pengetahuan Budaya (FIB)</item>
+        <item>Fakultas Ilmu Sosial dan Ilmu Politik (FISIP)</item>
+        <item>Pascasarjana</item>
+        <item>Vokasi</item>
+    </string-array>
+
+    <string-array name="spinner_fakultas_profile">
+        <item>Sahabat Makara</item>
+        <item>Universitas Indonesia (UI) </item>
+        <item>Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)</item>
+        <item>Fakultas Teknik (FT)</item>
+        <item>Fakultas Kedokteran (FK)</item>
+        <item>Fakultas Kedokteran Gigi (FKG)</item>
+        <item>Fakultas Farmasi</item>
+        <item>Fakultas Kesehatan Masyarakat (FKM)</item>
+        <item>Fakultas Ilmu Komputer (Fasilkom)</item>
+        <item>Fakultas Ilmu Keperawatan (FIK)</item>
+        <item>Fakultas Psikologi</item>
+        <item>Fakultas Hukum (FH)</item>
+        <item>Fakultas Ekonomi (FE)</item>
+        <item>Fakultas Ilmu Pengetahuan Budaya (FIB)</item>
+        <item>Fakultas Ilmu Sosial dan Ilmu Politik (FISIP)</item>
+        <item>Pascasarjana</item>
+        <item>Vokasi</item>
+    </string-array>
+
+    <string-array name="spinner_jmh_donasi">
+        <item>Rp.   100.000</item>
+        <item>Rp. 1.000.000</item>
+        <item>Rp. 2.000.000</item>
+        <item>Rp. 5.000.000</item>
+        <item>Rp.10.000.000</item>
+        <item>Others</item>
+
+    </string-array>
+
+    <string name="label_title_atmbersama">Harap membaca instruksi dengan jelas dan pastikan semua info sama</string>
+    <string name="label_step_atmbersama">1. Masukan PIN Anda. \n\n
+        2. Di Menu Utama, pilih Transaksi lainnya. \n\n
+        3. Pilih Transfer. \n\n
+        4. Pilih Ke Rekening Bank Lain ATM Bersama/Link. \n\n
+        5. Masukan nomor 013-xxx-xxx-xxx-xxx-xxxx (kode 013 dan 16 digit Virtual account). \n\n
+        6. Masukan jumlah donasi dengan lengkap tanpa pembulatan. Setelah itu tekan Benar\n\n
+        7. No. Referensi dapat dikosongkan, lalu tekan Benar. \n\n
+        8. Di halaman konfirmasi transfer akan muncul jumlah yang dibayarkan dan no. rekening tujuan. Jika informasinya telah sesuai tekan Benar. \n\n
+        9. Transaksi Berhasil.</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_loading">Memuat...</string>
+    <string name="dialog_sending">Mengirim</string>
+    <string name="title_activity_test__activity__view_image">View Image</string>
+
+</resources>
+

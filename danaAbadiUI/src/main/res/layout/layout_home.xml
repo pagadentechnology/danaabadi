@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager_highlight"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"></android.support.v4.view.ViewPager>
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator_highlight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp">
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/img_program_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_launcher"
+                         />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@color/black_transparent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_target_01"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+
+                            android:gravity="center_horizontal"
+                            android:maxLines="2"
+
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_title_01"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+
+                            android:gravity="center_horizontal"
+                            android:maxLines="2"
+
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp">
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/img_program_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_launcher"
+                        />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@color/black_transparent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_target_02"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+
+                            android:gravity="center_horizontal"
+                            android:maxLines="2"
+
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_title_02"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+
+                            android:gravity="center_horizontal"
+                            android:maxLines="2"
+
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp">
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/img_program_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/ic_launcher"
+                        android:scaleType="centerCrop"
+                         />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@color/black_transparent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_target_03"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+
+                            android:gravity="center_horizontal"
+                            android:maxLines="2"
+
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_title_03"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+
+                            android:gravity="center_horizontal"
+                            android:maxLines="2"
+
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_label_katamereka"
+            android:text="Kata Mereka"
+            android:textSize="@dimen/text_large"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager_katamereka"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"></android.support.v4.view.ViewPager>
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator_katamereka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_label_sahabatmakara"
+            android:text="Sahabat Makara"
+            android:textSize="@dimen/text_large"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager_sahabat"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"></android.support.v4.view.ViewPager>
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator_sahabat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

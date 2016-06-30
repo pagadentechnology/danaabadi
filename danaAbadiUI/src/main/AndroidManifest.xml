@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ui.tech.sahabatmakara.activity"
+    android:versionCode="8"
+    android:versionName="1.7">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity_Splashscreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity_MenuSlider"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+        <activity
+            android:name=".Activity_Content"
+            android:immersive="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activity_ViewImage"
+            android:screenOrientation="portrait"
+            android:immersive="true" />
+        <activity
+            android:name=".Activity_DetailEvent"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+        <activity
+            android:name=".Activity_DetailNews"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+        <activity
+            android:name=".Activity_DetailProgram"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+        <activity
+            android:name=".Activity_Donate_Program"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+        <activity
+            android:name=".Activity_Setting_Account_View"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/ToolBarStyle" />
+        <activity
+            android:name=".Activity_Setting_Account_Edit"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+        <activity
+            android:name=".Activity_Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+        <activity
+            android:name=".Activity_Signup"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+        <activity
+            android:name=".Activity_Donate_Donasi"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+
+        <activity
+            android:name=".Activity_Selesai_Transfer"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+
+        <activity
+            android:name=".Activity_Selesai_KartuKredit"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+
+        <activity
+            android:name=".Activity_Selesai_JemputDana"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+
+        <activity
+        android:name=".Activity_Selesai_UploadFoto"
+            android:screenOrientation="portrait"
+        android:theme="@style/ToolBarStyle" />
+
+        <activity
+            android:name=".Activity_TentangKami"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+
+        <activity
+            android:name=".Activity_Webview"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+
+        <activity
+            android:name=".UploadImageDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogTheme" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id_new" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>

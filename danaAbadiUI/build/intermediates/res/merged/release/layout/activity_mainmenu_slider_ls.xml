@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar_actionbar"
+            layout="@layout/custom_actiobar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <FrameLayout
+            android:id="@+id/frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="@color/primaryColorDark">
+
+        <RelativeLayout
+            android:id="@+id/slider_content"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+
+            android:scrollbars="vertical">
+            >
+
+
+            <RelativeLayout
+                android:id="@+id/wrapper_profile"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/img_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/wrapper_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/wrapper_foto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ProgressBar
+                                android:id="@+id/pg_img"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true" />
+
+                            <ImageView
+                                android:id="@+id/img_profile"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_centerInParent="true"
+                                android:scaleType="centerCrop" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/tv_username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="100dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="10dp"
+                            android:singleLine="true"
+                            android:text="Firstname"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_medium" />
+
+                        <TextView
+                            android:id="@+id/tv_email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_username"
+
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="100dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="10dp"
+                            android:singleLine="true"
+                            android:text="Email"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_small" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/btn_setting"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/icon_setting" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/wrapper_menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/wrapper_profile"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Beranda"
+                    android:textColor="@color/selector_tv_slider"
+                    android:textSize="@dimen/text_slider_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_program"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Program"
+                    android:textColor="@color/selector_tv_slider"
+                    android:textSize="@dimen/text_slider_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_event"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Acara"
+                    android:textColor="@color/selector_tv_slider"
+                    android:textSize="@dimen/text_slider_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_news"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Berita"
+                    android:textColor="@color/selector_tv_slider"
+                    android:textSize="@dimen/text_slider_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_gallery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Galeri"
+                    android:textColor="@color/selector_tv_slider"
+                    android:textSize="@dimen/text_slider_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white" />
+
+
+                <TextView
+                    android:id="@+id/tv_donasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Donasi"
+                    android:textColor="@color/selector_tv_slider"
+                    android:textSize="@dimen/text_slider_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_hubungikami"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Hubungi Kami"
+                    android:textColor="@color/selector_tv_slider"
+                    android:textSize="@dimen/text_slider_medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white" />
+                <TextView
+                    android:id="@+id/tv_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Riwayat"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_slider_medium" />
+
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/selector_btn_donate"
+                    android:padding="10dp"
+
+                    android:text="Logout"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.v4.widget.DrawerLayout><!-- From: file:/D:/Workspace_Android_Github/UI-temp/RCS-DA-UI/danaAbadiUI/src/main/res/layout/activity_mainmenu_slider_ls.xml -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <stroke
+        android:width="2dp"
+        android:color="@color/black" />
+
+    <solid android:color="@color/gray" />
+
+</shape><!-- From: file:/D:/Workspace_Android_Github/UI-temp/RCS-DA-UI/danaAbadiUI/src/main/res/drawable/bg_form_transfer.xml -->

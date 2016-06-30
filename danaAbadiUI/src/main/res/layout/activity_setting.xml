@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/wrapper_setting_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp">
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Akun Saya"
+            android:layout_alignParentLeft="true"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_setting_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black_transparent"/>
+
+    <RelativeLayout
+        android:id="@+id/wrapper_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ganti Password"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/wrapper_form_password"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ed_username"
+            android:hint="Username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/ed_password"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/selector_btn_donate"
+            android:padding="10dp"
+            android:text="Ganti Password"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black_transparent"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tampilkan Foto"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            />
+        
+        <ToggleButton android:id="@+id/toggle_photo"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:text=""
+            android:textOff=""
+            android:textOn=""
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/toggle_selector"
+            />
+    </RelativeLayout>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black_transparent"/>
+    
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No HP"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            />
+        
+        <ToggleButton android:id="@+id/toggle_hp"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text=""
+            android:textOff=""
+            android:textOn=""
+            android:background="@drawable/toggle_selector"
+            />
+    </RelativeLayout>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black_transparent"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="50dp">
+        
+        <TextView
+            android:id="@+id/tv_tentangkami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang Kami"
+            android:layout_alignParentLeft="true"
+            />
+        
+        <TextView 
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_edit_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/selector_btn_donate_blue"
+        android:padding="15dp"
+        android:text="Edit Profile"
+        android:textColor="@color/white"/>
+    
+
+</LinearLayout>

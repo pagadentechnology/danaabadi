@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/custom_actionbar_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/wrapper_profile"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/img_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black_transparent"
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/wrapper_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/wrapper_foto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ProgressBar
+                                android:id="@+id/pg_img"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true" />
+
+                            <com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+                                android:id="@+id/img_profile"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                app:bct_image="@drawable/img_bg_program"
+                                bootstrapbutton:bct_size="large"
+                                android:layout_centerInParent="true"
+                                android:scaleType="centerCrop" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/btn_setting"
+                        android:layout_width="35dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/icon_edit_profile" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/wrapper_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/bg_stroke_edittext"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+
+                    <EditText
+                        android:id="@+id/ed_nama_lengkap"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:inputType="text"
+                        android:imeOptions="actionNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:hint="Nama"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/bg_stroke_edittext"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+
+                    <EditText
+                        android:id="@+id/ed_tlp"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:inputType="text"
+                        android:imeOptions="actionNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:hint="Telepon"
+                        android:enabled="true"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/bg_stroke_edittext"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+
+
+                    <EditText
+                        android:id="@+id/ed_email"
+                        android:maxLines="1"
+                        android:inputType="textEmailAddress"
+                        android:imeOptions="actionNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:hint="Email"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_stroke_edittext"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spinner_fakultas"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"
+                        android:entries="@array/spinner_fakultas_profile"
+                        android:prompt="@array/spinner_fakultas_profile" />
+
+                    <TextView
+                        android:id="@+id/tv_fakultas_selected"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:background="@color/white_transparent"
+                        android:visibility="gone"
+                        />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/img_arrow_down" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/bg_stroke_edittext"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+
+
+                    <EditText
+                        android:id="@+id/ed_alamat"
+                        android:maxLines="1"
+                        android:inputType="text"
+                        android:imeOptions="actionNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:hint="Alamat"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_stroke_edittext"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spinner_kelamin"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"
+                        android:entries="@array/spinner_kelamin"
+                        android:prompt="@array/spinner_fakultas" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/img_arrow_down" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btn_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/selector_btn_donate_blue"
+                    android:padding="10dp"
+                    android:text="Submit"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

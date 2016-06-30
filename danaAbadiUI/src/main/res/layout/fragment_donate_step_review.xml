@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/label_total_donasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Total Donasi"
+        android:textSize="@dimen/text_slider_large" />
+
+    <TextView
+        android:id="@+id/tv_donate_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Rp. 1.000.000"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_slider_medium" />
+
+    <TextView
+        android:id="@+id/label_donate_atasnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:text="Atas Nama"
+        android:textSize="@dimen/text_slider_large" />
+
+    <TextView
+        android:id="@+id/tv_donate_atasnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Nama Donatur"
+        android:textSize="@dimen/text_slider_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/label_donate_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:textSize="@dimen/text_slider_large"
+        android:text="Pembayaran Via" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/spinner_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp"
+            android:entries="@array/payment_via"
+            android:padding="10dp"
+            android:prompt="@array/payment_via" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/spinner_payment"
+            android:src="@drawable/img_arrow_down" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/selector_btn_white"
+        android:padding="15dp"
+        android:text="LANJUT KE PEMBAYARAN" />
+
+</LinearLayout>

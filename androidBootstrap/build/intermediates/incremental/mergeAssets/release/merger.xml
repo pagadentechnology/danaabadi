@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\androidBootstrap\src\main\assets"><file name="fontawesome-webfont.ttf" path="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\androidBootstrap\src\main\assets\fontawesome-webfont.ttf"/></source></dataSet><dataSet config="release"><source path="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\androidBootstrap\src\release\assets"/></dataSet></merger>

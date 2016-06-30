@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\gradle-2.3\caches\modules-2\files-2.1\joda-time\joda-time\2.3\56498efd17752898cfcc3868c1b6211a07b12b8f\joda-time-2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="56498efd17752898cfcc3868c1b6211a07b12b8f">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\joda-time-2.3-62de28da73e57854383512e40cbc2e33b831be14.jar" />
+    </item>
+    <item
+        jar="D:\adt-bundle-windows-x86\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-9c71eb7fb5160b86a370a2c667aa287939472303.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\classes-d56237fc0320502b710b0592399b53a67637bb6b.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\libs\jsoup-1.7.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\jsoup-1.7.3-50d338265fef75b098935216b62bcfdc04a97f6e.jar" />
+    </item>
+    <item
+        jar="D:\adt-bundle-windows-x86\sdk\build-tools\23.0.1\renderscript\lib\renderscript-v8.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="762016371811e15a66e97cf27f3e852bf287aaf3">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\renderscript-v8-314fa099df3494fce1b384b8a7206e3b3d5d26f2.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\libs\picasso-2.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fb8144776ae3c72c62d66b7f0bdb2580b6f0668c">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\picasso-2.0.0-7c4e1c55a53140c20e5ce15a344acc766e1c3e11.jar" />
+    </item>
+    <item
+        jar="C:\gradle-2.3\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\gson-2.2.4-c30ab713bafb1b30cc8ac720cd8d6a7dcef62a02.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\libs\android-support-v7-recyclerview.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7c0018e9838fc8c654c6fa83a110c4600b46febd">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview-6e7462f59e6f4a58eff6ec73847bcfb997831a0b.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\libs\androidannotations-api-3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c1e4371cd007644db260a6181f1084d33fb79e2b">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\androidannotations-api-3.0-7df43aad45c3f19e1052f52623eb1c79764fc47a.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\exploded-aar\RCS-DA-UI\libraryAppCompatCardview\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="54d78059f4a0bcf3ed78368c25f821b4303140e5">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\classes-a750450da6b7a5ec95095513ed42b1b6679a3f08.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\classes-b97c6ce62dcb5d9c5c796ddecadda992914c634f.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\libs\rebound-0.3.8.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\rebound-0.3.8-d2e3e862b9d35b0ebedbb3cd168b9cab4e83b037.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\libs\ksoap2-android-assembly-2.3-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d370c3745e9d655c61ff2f120206ea4d773ecc78">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.3-jar-with-dependencies-7d6cc9ad687d0bd32074fde7c493ddafc2676872.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\libs\httpmime-4.1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c78eaaea68d0f36f73b646f08cdb34f1a784239b">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\httpmime-4.1.2-60e992902a97f3e80231fee19f4a03eb8ac17ccc.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\exploded-aar\RCS-DA-UI\androidBootstrap\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="13b4f2800b9cb8437a34a2d80c1ab8a6a932fb67">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\classes-e086b61cee7d86e6313e2bd2e19cfc615a352a7b.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\libs\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\retrofit-1.9.0-30d88e666369979f723f62b0a000472e4a2ee383.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-ad4f5dfe7d69cecaac2557cdaa7a81bd270833b5.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\exploded-aar\jp.wasabeef\blurry\1.0.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d1a84f96ee267bf5fb50ea234e8915cfff17faa1">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\classes-c406c8744c06df7a2f883c8c21f53aa036aa2332.jar" />
+    </item>
+    <item
+        jar="C:\gradle-2.3\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-9e9fda864997c279af7f5d305c5ce034036cf9eb.jar" />
+    </item>
+    <item
+        jar="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="D:\Workspace_Android_Github\UI-temp\RCS-DA-UI\danaAbadiUI\build\intermediates\pre-dexed\debug\classes-e874143bbb7dae820953052065417b4018ea140d.jar" />
+    </item>
+
+</items>

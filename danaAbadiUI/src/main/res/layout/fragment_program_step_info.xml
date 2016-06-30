@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Secured By"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/logo_veritrans"
+            android:layout_margin="10dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <ImageView
+            android:src="@drawable/logo_bni"
+            android:layout_margin="10dp"
+            android:layout_width="70dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/label_nama_lengkap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Nama Lengkap" />
+
+        <EditText
+            android:id="@+id/ed_donatur_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="right"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/label_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Email" />
+
+        <EditText
+            android:id="@+id/ed_donatur_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="right"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wrapper_no_tlp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_tlp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor Hp" />
+
+        <EditText
+            android:id="@+id/ed_no_tlp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="right"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_nama_program"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Nama Program" />
+
+
+
+        <EditText
+
+            android:id="@+id/ed_donatur_nama_program"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:gravity="right"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_slider_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/label_informasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Information"
+            android:textSize="@dimen/text_slider_large" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_nama_fakultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Nama Fakultas" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner_fakultas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/white_transparent"
+                android:entries="@array/spinner_fakultas"
+                android:prompt="@array/spinner_fakultas" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/img_arrow_down" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_jmh_donasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Donasi" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner_donasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/white_transparent"
+                android:entries="@array/spinner_jmh_donasi"
+                android:prompt="@array/spinner_jmh_donasi" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/img_arrow_down" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wrapper_jmhdonasi_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/ed_jmhdonasi_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:hint="Jumlah Nominal Anda"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_metode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metode Donasi" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/white_transparent"
+                android:entries="@array/payment_via"
+                android:prompt="@array/payment_via" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/img_arrow_down" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/selector_btn_donate_blue"
+        android:padding="15dp"
+        android:text="Selanjutnya"
+        android:textColor="@color/white"/>
+</LinearLayout>

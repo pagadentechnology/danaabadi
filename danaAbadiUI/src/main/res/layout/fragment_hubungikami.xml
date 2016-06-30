@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/img_location"
+        android:layout_gravity="left"
+        android:scaleType="centerInside"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/tv_hubungi_alamat"
+        android:padding="20dp"
+        android:text="@string/hubungi_alamat"
+        android:textSize="@dimen/text_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:src="@drawable/img_phone"
+        android:layout_gravity="left"
+        android:scaleType="centerInside"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/tv_hubungi_phone"
+        android:padding="20dp"
+        android:text="@string/hubungi_phone"
+        android:textSize="@dimen/text_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/img_email_yellow"
+        android:layout_gravity="left"
+        android:scaleType="centerInside"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/tv_hubungi_email"
+        android:padding="20dp"
+        android:text="@string/hubungi_email"
+        android:textSize="@dimen/text_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

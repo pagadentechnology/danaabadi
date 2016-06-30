@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/wrapper"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"                
+
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_tgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="12sp"
+                
+                android:textColor="@android:color/darker_gray" />
+
+            <Button
+                android:id="@+id/btn_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:text="@string/label_btn_more_detail"
+                android:textColor="@color/selector_tv" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:padding="10dp" >
+            
+            <TextView
+                android:id="@+id/tv_label_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Countdown"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_tgl_event_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="12sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/darker_gray" />            
+            
+            </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:background="@color/yellow" >
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+             />
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:padding="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black_transparent"
+
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:padding="10dp"
+
+        android:textSize="16sp" />
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:paddingBottom="5dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+
+        android:textSize="18sp" />
+
+</LinearLayout>
